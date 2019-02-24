@@ -15,7 +15,7 @@ contract SimpleToken is ERC721MetadataMintable {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor ("Simple token", "SPL") public {
+    constructor ("Simple token 2", "SPL") public {
         _mint(msg.sender, INITIAL_SUPPLY);
     }
 }
